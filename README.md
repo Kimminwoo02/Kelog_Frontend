@@ -73,21 +73,8 @@ npm run dev
 
 http://localhost:3000 에서 확인할 수 있습니다.
 
-### 2. 백엔드 실행
 
-```bash
-cd ../kelog-backend\ 2
-
-# MySQL 실행 (Docker)
-docker-compose up -d
-
-# Spring Boot 실행
-./mvnw spring-boot:run
-```
-
-백엔드는 http://localhost:8080 에서 실행됩니다.
-
-### 3. 환경 변수 설정
+### 2. 환경 변수 설정
 
 `.env.local` 파일 생성:
 
@@ -129,7 +116,3 @@ npm run build    # 프로덕션 빌드
 npm run start    # 프로덕션 서버 실행
 npm run lint     # ESLint 실행
 ```
-
-## License
-
-MIT
