@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run build:*)",
+      "Bash(tree -L 4 -I \"target|.idea\" '/Users/gimmin-u/Desktop/Kelog/kelog-backend 2')"
+    ]
+  }
+}
